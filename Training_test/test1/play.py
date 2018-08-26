@@ -1,0 +1,6 @@
+myData = list({'TTH','ALI','DOG','CAT'})
+print(type(myData))
+myList = list(set(c for item in myData for c in item))
+print(myList)
+myList.sort(reverse=True)
+print(myList)
